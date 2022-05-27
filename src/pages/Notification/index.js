@@ -20,16 +20,16 @@ import { Text2Line1, TextLine1, Line1, Scroller, TextLine2, Text2Line2, Line2, T
      return(
         <Container>
         
-            <HeaderArea>
+        <HeaderArea>
             <HeaderTitle>Notification</HeaderTitle>
             
-            <HeaderContainer1>
-                <HeaderIcon1>
-                    <TouchableOpacity onPress={ () => navigation.navigate('Home') }>
-                    <SimpleLineIcons name='arrow-left'/>
-                    </TouchableOpacity>
-                </HeaderIcon1>
-            </HeaderContainer1>
+            <TouchableOpacity onPress={ () => navigation.navigate('Home') }>
+                <HeaderContainer1>
+                    <HeaderIcon1>
+                        <SimpleLineIcons name='arrow-left'/>
+                    </HeaderIcon1>
+                </HeaderContainer1>
+            </TouchableOpacity>
            
             <HeaderContainer2>
                 <HeaderIcon2>
@@ -38,8 +38,8 @@ import { Text2Line1, TextLine1, Line1, Scroller, TextLine2, Text2Line2, Line2, T
                 <HeaderIcon3>
                      <FontAwesome name='circle' size={5}/>
                 </HeaderIcon3>
-                </HeaderContainer2> 
-                </HeaderArea>
+            </HeaderContainer2> 
+        </HeaderArea>
 
                 <TextLine1>Hey, it’s time for lunch</TextLine1>
                 <Text2Line1>About 1 minutes ago</Text2Line1>
