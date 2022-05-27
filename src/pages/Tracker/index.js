@@ -10,7 +10,7 @@ export default function Tracker({navigation}) {
             <Scroller>
                 <HeaderArea>
                     <HeaderTitle>Activity Tracker</HeaderTitle>
-                </HeaderArea>
+               
 
                 <HeaderContainer1>
                 <HeaderIcon1>
@@ -29,7 +29,7 @@ export default function Tracker({navigation}) {
                     <FontAwesome name='circle' size={5}/>
                     </HeaderIcon3>
                 </HeaderContainer2>
-
+                </HeaderArea>
                 <ContainerTarget>
                 <TextTarget>Today Target</TextTarget>
                     <ContainerWater>
@@ -61,6 +61,10 @@ export default function Tracker({navigation}) {
                     </ContainerPlus>
                 </ContainerTarget>
 
+                
+
+
+                <ContainerProgress>
                 <TextProgress>Activity Progress</TextProgress>
                 <ContainerWeekly>
                     <ImgWeekly>
@@ -68,8 +72,6 @@ export default function Tracker({navigation}) {
                     </ImgWeekly>
                     <TextWeekly>Weekly</TextWeekly>
                 </ContainerWeekly>
-
-                <ContainerProgress>
                     <ContainerSun></ContainerSun>
                     <ContainerColorSun></ContainerColorSun>
                     <TextSun>Sun</TextSun>
@@ -99,10 +101,10 @@ export default function Tracker({navigation}) {
                     <TextSat>Sat</TextSat>
                 </ContainerProgress>
 
-                <TextActivity>Latest Activity</TextActivity>
-                <TextMore>See more</TextMore>
 
                 <Container1>
+                <TextActivity>Latest Activity</TextActivity>
+                <TextMore>See more</TextMore>
                     <Container1Text1>Drinking 300ml Water</Container1Text1>
                     <Container1Text2>About 3 minutes ago</Container1Text2>
                     <CircleColor>
