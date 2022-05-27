@@ -34,8 +34,8 @@ export const HeaderContainer1 = styled.View`
     position: relative;
     width: 32px;
     height: 32px;
-    right: 160px;
-    top: -20px;
+    left: -37%;
+    top: -55%;
 
     background: #F7F8F8;
     border-radius: 8px;
