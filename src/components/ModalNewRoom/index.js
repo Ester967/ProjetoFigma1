@@ -27,7 +27,7 @@ function ModalNewRoom({ setVisible }){
 
         <TouchableOpacity >
         <View style={styles.Icon}>
-        <Ionicons name='close' size={17}/>
+        <Ionicons name='close' size={18}/>
         </View>
         </TouchableOpacity>
 
@@ -58,15 +58,16 @@ const styles = StyleSheet.create({
  },
  modal:{
   flex: 1,
+  
  },
  modalContent:{
-   flex: 1,
   backgroundColor: '#FFF',
   width: 315,
   height: 243,
-  top: 345,
-  left: 48,
+  top: -316,
+  left: 45,
   borderRadius:16,
+  
 
  },
  title:{
@@ -105,7 +106,7 @@ const styles = StyleSheet.create({
  },
  Icon:{
   top: -49,
-  left: 30,
+  left: 32,
  },
  Icon2:{
   top: -68,
