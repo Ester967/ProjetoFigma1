@@ -4,7 +4,7 @@ import {useNavigation} from '@react-navigation/native'
 import {Feather, FontAwesome, SimpleLineIcons,MaterialIcons} from '@expo/vector-icons';
 import {Container, HeaderArea, HeaderTitle, HeaderText, HeaderContainer, ContainerTitle, ContainerText, AreaButton, MoreButton, ButtonText,     Circle, HalfCircle, Bolha, Bolha2, Bolha3, Bolha4, Bolha5, Bolha6, NotificationButton, Container2, TextContainer2, CheckButton, TextButtonCheck,
 Text2, ContainerStatistics, TitleStatistics, TextStatistics, TimeButton, TextTimeButton, ContainerWater, ContainerSleep, ContainerCalories,
-MeterWater, ColorMeterWater, TextWater, TextWater2, TextWater3, Ball, Ball2,Ball3,Ball4,Ball5,Straight,Straight2,Straight3,Straight1,TextBall,TextBall2,TextStraight,TextStraight1,TextBall3,TextStraight2,TextBall4,TextStraight3,TextBall5,TextStraight4,TextSleep,TextTimeSleep,TextCalories,Textkg,CircleCalories,TextCircleCalories,CircleCircle, ContainerProgress,TextProgress,ButtonWeekly,LineProgress,LineProgress2,LineProgress3,LineProgress4,LineProgress5,LineProgress6, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Num1, Num2, Num3, Num4, Num5, Num6, CashierProgress, TextCashierProgress, Text2CashierProgress, NumCashierProgress, ArrowCashierProgress, GraphicCachierProgress, ColorGraphicCachierProgress, ColorGraphicProgress, TextWorkout, Text2Workout, TextPerfil1, Text2Perfil1, GraphicPerfil1, GraphicColorPerfil1, TextPerfil2, Text2Perfil2, GraphicPerfil2, GraphicColorPerfil2, CirclePerfil1, ArrowPerfil1, CirclePerfil2, ArrowPerfil2, Scroller, Img1, Img2, TextWeekly, ImgWeekly, DetButton, ImgStatistics, ImgSleep, ImgProgress, ContainerMore, ContainerWorkout, ImgFri} from './style';
+MeterWater, ColorMeterWater, TextWater, TextWater2, TextWater3, Ball, Ball2,Ball3,Ball4,Ball5,Straight,Straight2,Straight3,Straight1,TextBall,TextBall2,TextStraight,TextStraight1,TextBall3,TextStraight2,TextBall4,TextStraight3,TextBall5,TextStraight4,TextSleep,TextTimeSleep,TextCalories,Textkg,CircleCalories,TextCircleCalories,CircleCircle, ContainerProgress,TextProgress,ButtonWeekly,LineProgress,LineProgress2,LineProgress3,LineProgress4,LineProgress5,LineProgress6, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Num1, Num2, Num3, Num4, Num5, Num6, CashierProgress, TextCashierProgress, Text2CashierProgress, NumCashierProgress, ArrowCashierProgress, GraphicCachierProgress, ColorGraphicCachierProgress, ColorGraphicProgress, TextWorkout, Text2Workout, TextPerfil1, Text2Perfil1, GraphicPerfil1, GraphicColorPerfil1, TextPerfil2, Text2Perfil2, GraphicPerfil2, GraphicColorPerfil2, CirclePerfil1, ArrowPerfil1, CirclePerfil2, ArrowPerfil2, Scroller, Img1, Img2, TextWeekly, ImgWeekly, DetButton, ImgStatistics, ImgSleep, ImgProgress, ContainerMore, ContainerWorkout, ImgFri, ContainerLine} from './style';
 import PizzaHome from '../../components/Graphics/PizzaHome';
 import CircleHome from '../../components/Graphics/CircleHome';
 
@@ -30,22 +30,17 @@ export default function Home() {
     return(
         <Scroller>
         <Container>
-        
-            
-            
-            
-                <HeaderArea>
-                
+            <HeaderArea>
                 <HeaderTitle>Stefani Wong</HeaderTitle>
                 <HeaderText>Welcome Back,</HeaderText>
-                <AreaButton>
-                    <NotificationButton>
-                    <TouchableOpacity  onPress={navegaNotification}>
-                        
-                        <Feather name='bell'size={20}/>
-                </TouchableOpacity>
-                </NotificationButton>
-                </AreaButton>
+                    
+                    <AreaButton>
+                        <NotificationButton>
+                            <TouchableOpacity  onPress={navegaNotification}>
+                                <Feather name='bell'size={20}/>
+                            </TouchableOpacity>
+                        </NotificationButton>
+                    </AreaButton>
                 </HeaderArea>
 
                 
@@ -190,7 +185,7 @@ export default function Home() {
                 </ButtonWeekly>
                 </TouchableOpacity>
                     
-
+                    <ContainerLine>
                     <LineProgress></LineProgress>
                     <LineProgress2></LineProgress2>
                     <LineProgress3></LineProgress3>
@@ -198,10 +193,9 @@ export default function Home() {
                     <LineProgress5></LineProgress5>
                     <LineProgress6></LineProgress6>
 
-                    <ImgProgress>
-                <Image
-                                source={require('../../components/Imagens/Home/LineGraph.png')}/>
-                </ImgProgress>
+                    <ImgProgress source={require('../../components/Imagens/Home/LineGraph.png')}/>
+                                
+                    </ContainerLine>
 
                     <Day1>Sun</Day1>
                     <Day2>Mon</Day2>
@@ -242,46 +236,48 @@ export default function Home() {
                 <TextWorkout>Latest Workout</TextWorkout>
                 <Text2Workout>See more</Text2Workout>
 
-             
-                    <TextPerfil1>Fullbody Workout</TextPerfil1>
+                <TextPerfil1>Fullbody Workout</TextPerfil1>
                     <Text2Perfil1>180 Calories Burn | 20minutes</Text2Perfil1>
-
+ 
                     <Img1>
                         <Image
                             source={require("../../components/Imagens/Home/Vector1.png")}
                         />
                     </Img1>
-
+ 
                     <GraphicPerfil1></GraphicPerfil1>
                     <GraphicColorPerfil1></GraphicColorPerfil1>
-
+ 
                     <TextPerfil2>Lowerbody Workout</TextPerfil2>
                     <Text2Perfil2>200 Calories Burn | 30minutes</Text2Perfil2>
-
+ 
                     <Img2>
                         <Image
                             source={require("../../components/Imagens/Home/Vector2.png")}
                         />
                     </Img2>
-
+ 
                     <GraphicPerfil2></GraphicPerfil2>
                     <GraphicColorPerfil2></GraphicColorPerfil2>
-
+ 
                     <CirclePerfil1>
                         <FontAwesome name='circle-thin' size={27} color = "#C58BF2"/>
                     </CirclePerfil1>
-
+ 
                     <ArrowPerfil1>
                          <SimpleLineIcons name='arrow-right' size={10} color = "#C58BF2" />
                     </ArrowPerfil1>
-
+ 
                     <CirclePerfil2>
                         <FontAwesome name='circle-thin' size={27} color = "#C58BF2"/>
                     </CirclePerfil2>
-
+ 
                     <ArrowPerfil2>
                          <SimpleLineIcons name='arrow-right' size={10} color = "#C58BF2" />
                     </ArrowPerfil2>
+
+
+
                     </ContainerWorkout>
         
                     </Container>
