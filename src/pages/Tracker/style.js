@@ -7,11 +7,12 @@
         flex: 1;
         background-color: #FFFFFF;
         
+        
     `;
 
     export const Scroller = styled.ScrollView`
         flex: 1;
-        padding:20px ;
+        
     `;
 
     export const HeaderArea = styled.View`
@@ -21,10 +22,10 @@
     `;
 
     export const HeaderTitle = styled.Text`
-    position: absolute;
-    width: 145px;
+    position: relative;
+    width: 124px;
     height: 24px;
-    left: 122px;
+    left: 400%;
     top: 2px;
     font-style: normal;
     font-weight: 700;
@@ -36,10 +37,10 @@
     `;
 
     export const HeaderContainer1 = styled.View`
-    position: absolute;
+    position: relative;
     width: 32px;
     height: 32px;
-    left: 30px;
+    left: -600%;
     background: #F7F8F8;
     border-radius: 8px;
     `;
@@ -52,10 +53,10 @@
     `;
 
     export const HeaderContainer2 = styled.View`
-        position: absolute;
+        position: relative;
         width:32px;
         height:32px;
-        left: 305px;
+        left: -150%;
         background: #F7F8F8;
         border-radius: 8px;
     `;
@@ -77,11 +78,11 @@
         colors: [ "#92A3FD33", "#9DCEFF33"],
     
     })`
-        position: absolute;
-        width:315px;
-        height:139px;
-        left: 30px;
-        top: 60px;
+        position: relative;
+        width:80%;
+        height:450%;
+        left: 10%;
+        top: 70%;
     border-radius: 22px;
     `;
     export const TextTarget = styled.Text`
@@ -201,8 +202,8 @@ export const TextProgress = styled.Text`
 position: absolute;
 width: 137px;
 height: 24px;
-left: 30px;
-top: 230px;
+left: 5%;
+top: -20%;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -223,10 +224,10 @@ export const ContainerWeekly = styled(LinearGradient).attrs({
 
 })`
 position: absolute;
-    width: 76px;
+    width: 22%;
     height: 30px;
-    left: 269px;
-    top: 225px;
+    left: 75%;
+    top: -22%;
 
     background: #92A3FD;
     border-radius: 14px;
@@ -251,11 +252,11 @@ color: #FFFFFF;
 `;
 
 export const ContainerProgress = styled.View`
-position: absolute;
+        position: absolute;
         width:315px;
         height:200px;
-        left: 31px;
-        top: 270px;
+        left: 10%;
+        top: 800%;
         box-shadow: 0px 10px 40px rgba(29, 22, 23, 0.07);
 background: #FFFFFF;
 border-radius: 20px;
@@ -564,11 +565,11 @@ color: #7B6F72;
 `;
 
 export const TextActivity = styled.Text`
-position: absolute;
+position: relative;
 width: 115px;
 height: 24px;
-left: 30px;
-top: 490px;
+left: 5%;
+top: -40%;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -582,11 +583,11 @@ color: #1D1617;
 
 `;
 export const TextMore = styled.Text`
-position: absolute;
+position: relative;
 width: 58px;
 height: 18px;
-left: 287px;
-top: 490px;
+left: 90%;
+top: -70%;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
@@ -603,8 +604,8 @@ export const Container1 = styled.View`
 position: absolute;
 width: 315px;
 height: 80px;
-left: 30px;
-top: 530px;
+left: 8%;
+top: 1550%;
 
 /* white-color */
 
@@ -659,7 +660,7 @@ position: absolute;
 width: 315px;
 height: 80px;
 left: 30px;
-top: 625px;
+top: 1850%;
 
 /* white-color */
 
