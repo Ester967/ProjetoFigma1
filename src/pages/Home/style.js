@@ -29,8 +29,8 @@ export const HeaderText = styled.Text`
 position:relative;
     width: 92px;
     height: 18px;
-    top: 0px;
-    right: 155px;
+    top: 0%;
+    right: 390%;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -42,8 +42,8 @@ export const HeaderTitle = styled.Text`
     position:relative;
     width: 138px;
     height: 30px;
-    right: 18px;
-    top: 25px;
+    right: 45%;
+    top: 7%;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -839,9 +839,9 @@ export const CircleCalories =  styled(LinearGradient).attrs({
 
 export const ContainerProgress = styled.View`
 position: relative;
-    height: 250px;
-    width: 315px;
-    top: -140px;
+    height: 19%;
+    width: 78%;
+    top: -10%;
  
 
 `;
@@ -861,8 +861,8 @@ export const TextProgress = styled.Text`
 
 export const ImgFri = styled.View`
 position: absolute;
-top: 106px;
-left: 233px;
+top: 42%;
+left: 70%;
 `;
 
 
@@ -907,161 +907,151 @@ top: 8px;
 
 export const LineProgress = styled.View`
     position:absolute;
-    left: 7px;
-    right: 14px;
-    top: 65px;
+    left: 2%;
+    right: 10.16%;
+    top: 26%;
     bottom: 95.35%;
-    /* gray-3 */
-    border: 1px solid rgba(221, 218, 218, 0.2);
+    border: 1px solid rgba(221, 218, 218, 1);
 `;
 
 export const LineProgress2 = styled.View`
     position:absolute;
-    left: 7px;
-    right: 14px;
-    top: 93px;
-    bottom: 95.35%;
-    /* gray-3 */
-    border: 1px solid rgba(221, 218, 218,  0.2);
+    left: 2%;
+    right: 10.16%;
+    top: 37%;
+    bottom: 79.07%;
+    border: 1px solid rgba(221, 218, 218,  1);
 `;
 export const LineProgress3 = styled.View`
     position:absolute;
-    left: 7px;
-    right: 14px;
-    top: 121px;
-    bottom: 95.35%;
-    /* gray-3 */
-    border: 1px solid rgba(221, 218, 218,  0.2);
+    left: 2%;
+    right: 10.16%;
+    top: 48%;
+    bottom: 63.37%;
+    border: 1px solid rgba(221, 218, 218,  1);
 `;
 export const LineProgress4 = styled.View`
     position:absolute;
-    left: 7px;
-    right: 14px;
-    top: 149px;
-    bottom: 95.35%;
-    /* gray-3 */
-    border: 1px solid rgba(221, 218, 218,  0.2);
+    left: 2%;
+    right: 10.16%;
+    top: 59%;
+    bottom: 47.67%;
+    border: 1px solid rgba(221, 218, 218,  1);
 `;
 export const LineProgress5 = styled.View`
     position:absolute;
-    left: 7px;
-    right: 14px;
-    top: 177px;
-    bottom: 95.35%;
-    /* gray-3 */
-    border: 1px solid rgba(221, 218, 218,  0.2);
+    left: 2%;
+    right: 10.16%;
+    top: 70%;
+    bottom: 31.4%;
+    border: 1px solid rgba(221, 218, 218,  1);
 `;
 export const LineProgress6 = styled.View`
     position:absolute;
-    left: 7px;
-    right: 14px;
-    top: 205px;
-    bottom: 95.35%;
-    /* gray-3 */
-    border: 1px solid rgba(221, 218, 218, 0.2);
+    left: 2%;
+    right: 10.16%;
+    top: 80%;
+    bottom: 20%;
+    border: 1px solid rgba(221, 218, 218, 1);
+`;
+export const ContainerLine = styled.View`
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0%;
 `;
 
-export const LineProgress7 = styled.View`
-    position:absolute;
-    left: 7px;
-    right: 14px;
-    top: 233px;
-    bottom: 95.35%;
-    /* gray-3 */
-    border: 1px solid rgba(221, 218, 218,  0.2);
-`;
 export const Day1 = styled.Text`
     position:absolute;
-    left: 11px;
-    right: 31px;
-    top: 212px;
+    left: 3%;
+    right: 89%;
+    top: 84%;
+    bottom: 0%;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
-    /* gray-1 */
     color: #7B6F72;
 `;
 export const Day2 = styled.Text`
     position:absolute;
-    left: 55px;
-    top: 212px;
+    left: 14.92%;
+    right: 76.83%;
+    top: 84%;
+    bottom: 0%;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
-    /* gray-1 */
     color: #7B6F72;
 `;
 export const Day3 = styled.Text`
     position:absolute;
-    left: 99px;
-    top: 212px;
+    left: 29.52%;
+    right: 63.49%;
+    top: 84%;
+    bottom: 0%;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
-    /* gray-1 */
     color: #7B6F72;
 `;
 export const Day4 = styled.Text`
     position:absolute;
-    left: 143px;
-    top: 212px;
+    left: 42.86%;
+    right: 48.25%;
+    top: 84%;
+    bottom: 0%;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
-    /* gray-1 */
     color: #7B6F72;
 `;
 export const Day5 = styled.Text`
     position:absolute;
-    left: 189px;
-    top: 212px;
+    left: 58.1%;
+    right: 33%;
+    top: 84%;
+    bottom: 0%;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
-    /* gray-1 */
     color: #7B6F72;
 `;
 export const Day6 = styled.Text`
     position:absolute;
-    left: 237px;
-    top: 212px;
-    
+    left: 71.11%;
+    right: 22%;
+    top: 84%;
+    bottom: 0%;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
-    /* gray-1 */
     color: rgba(146, 163, 253, 1);
 `;
 export const Day7 = styled.Text`
     position:absolute;
-    left: 275px;
-    top: 212px;
+    left: 82.22%;
+    right: 11.43%;
+    top: 84%;
+    bottom: 0%;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
-    /* gray-1 */
     color: #7B6F72;
 `;
 
 export const Num1 = styled.Text`
     position:absolute;
-    left: 30px;
-    right: -20px;
-    top: 57px;
+    left: 90%;
+    right: -1%;
+    top: 23%;
+    bottom: 65%;
     font-style: normal;
     font-weight: normal;
     font-size: 10.625px;
@@ -1073,9 +1063,10 @@ export const Num1 = styled.Text`
 `;
 export const Num2 = styled.Text`
     position:absolute;
-    left: 30px;
-    right: -20px;
-    top: 85px;
+    left: 90%;
+    right: -1%;
+    top: 34%;
+    bottom: 60%;
     font-style: normal;
     font-weight: normal;
     font-size: 10.625px;
@@ -1087,9 +1078,10 @@ export const Num2 = styled.Text`
 `;
 export const Num3 = styled.Text`
     position:absolute;
-    left: 30px;
-    right: -20px;
-    top: 112px;
+    left: 90%;
+    right: -1%;
+    top: 45%;
+    bottom: 50%;
     font-style: normal;
     font-weight: normal;
     font-size: 10.625px;
@@ -1101,9 +1093,10 @@ export const Num3 = styled.Text`
 `;
 export const Num4 = styled.Text`
     position:absolute;
-    left: 30px;
-    right: -20px;
-    top: 141px;
+    left: 90%;
+    right: -1%;
+    top: 55.5%;
+    bottom: 30%;
     font-style: normal;
     font-weight: normal;
     font-size: 10.625px;
@@ -1115,9 +1108,10 @@ export const Num4 = styled.Text`
 `;
 export const Num5 = styled.Text`
     position:absolute;
-    left: 30px;
-    right: -20px;
-    top: 168px;
+    left: 90%;
+    right: -1%;
+    top: 66%;
+    bottom: 26.74%;
     font-style: normal;
     font-weight: normal;
     font-size: 10.625px;
@@ -1129,9 +1123,10 @@ export const Num5 = styled.Text`
 `;
 export const Num6 = styled.Text`
     position:absolute;
-    left: 30px;
-    right: -20px;
-    top: 195px;
+    left: 90%;
+    right: -1%;
+    top: 77%;
+    bottom: 10.47%;
     font-style: normal;
     font-weight: normal;
     font-size: 10.625px;
@@ -1236,43 +1231,42 @@ right: 105px;
 top: 1135px;
 background: rgba(255, 255, 255, 0.4);
 `;
-export const ImgProgress = styled.View`
+export const ImgProgress = styled.Image`
 position:absolute;
-left: 15px;
-right: 26.24px;
-top: 80px;
+width: 90%;
+left: 1.5%;
+right: 12%;
+top: 31.5%;
 
 `;
 
 export const ContainerWorkout = styled.View`
-position: relative;
-    height: 70px;
-    width: 375px;
-    left: 35px;
-    top: -130px;
+    position: relative;
+    width: 73%;
+    height: 100%;
+    top: -10%;
+    
+   
 
 `;
 export const TextWorkout = styled.Text`
-    position:absolute;
-    width: 123px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
-    /* Text / Large Text (Semi-bold) */
+    position:relative;
+    width: 50%;
+    height: 24%;
+    left: 0%;
+    top: 0%;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-    /* Black-color */
     color: #1D1617;
 `;
 export const Text2Workout = styled.Text`
-position:absolute;
-    width: 58px;
-    height: 18px;
-    left: 274px;
-    top: 2px;
+    position:relative;
+    width: 40%;
+    height: 18%;
+    left: 85%;
+    top: -24%;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1283,11 +1277,11 @@ position:absolute;
 `;
 
 export const TextPerfil1 = styled.Text`
-    position:absolute;
-    width: 106px;
-    height: 18px;
-    left: 75px;
-    top: 30px;
+    position:relative;
+    width: 50%;
+    height: 1%;
+    left: 24%;
+    top: -39%;
     /* Text / Small Text (Medium) */
     font-style: normal;
     font-weight: 500;
@@ -1298,11 +1292,11 @@ export const TextPerfil1 = styled.Text`
     color: #DDDADA;
 `;
 export const Text2Perfil1 = styled.Text`
-    position:absolute;
-    width: 146px;
-    height: 15px;
-    left: 75px;
-    top: 50px;
+    position:relative;
+    width: 60%;
+    height: 1%;
+    left: 24%;
+    top: -38.5%;
     /* Text / Caption (Regular) */
     font-style: normal;
     font-weight: normal;
@@ -1313,11 +1307,11 @@ export const Text2Perfil1 = styled.Text`
     color: #A4A9AD;
 `;
 export const GraphicPerfil1 = styled.View`
-    position:absolute;
+    position:relative;
     height: 10px;
     width: 191px;
-    left: 75px;
-    top: 75px;
+    left: 24%;
+    top: -41%;
     bottom: 0%;
 /* Border-Color */
 background: #F7F8F8;
@@ -1329,22 +1323,22 @@ export const GraphicColorPerfil1 = styled(LinearGradient).attrs({
     colors: [ "#C58BF2", "#92A3FD"],
 
 })`
-    position:absolute;
+    position:relative;
     height: 10px;
     width: 63px;
-    left: 75px;
-    top: 75px;
+    left: 24%;
+    top: -41.7%;
     bottom: 6.35%;
     border-radius: 5px;
  
 `;
 
 export const TextPerfil2 = styled.Text`
-    position:absolute;
-    width: 120px;
-    height: 18px;
-    left: 75px;
-    top: 115px;
+    position:relative;
+    width: 60%;
+    height: 1%;
+    left: 24%;
+    top: -39.5%;
     /* Text / Small Text (Medium) */
     font-style: normal;
     font-weight: 500;
@@ -1355,11 +1349,11 @@ export const TextPerfil2 = styled.Text`
     color: #1D1617;
 `;
 export const Text2Perfil2 = styled.Text`
-    position:absolute;
-    width: 149px;
-    height: 15px;
-    left: 75px;
-    top: 135px;
+    position:relative;
+    width: 60%;
+    height: 1%;
+    left: 24%;
+    top: -38.8%;
     /* Text / Caption (Regular) */
     font-style: normal;
     font-weight: normal;
@@ -1371,11 +1365,11 @@ export const Text2Perfil2 = styled.Text`
 `;
 
 export const GraphicPerfil2 = styled.View`
-    position:absolute;
+    position:relative;
     height: 10px;
     width: 191px;
-    left: 75px;
-    top: 160px;
+    left: 24%;
+    top: -41.5%;
     bottom: 0%;
 /* Border-Color */
     background: #F7F8F8;
@@ -1387,60 +1381,60 @@ export const GraphicColorPerfil2 = styled(LinearGradient).attrs({
     colors: [ "#C58BF2", "#92A3FD"],
 
 })`
-    position:absolute;
+    position:relative;
     height: 10px;
     width: 105px;
-    left: 75px;
-    top: 160px;
+    left: 24%;
+    top: -42.2%;
     bottom: 6.35%;
     border-radius: 5px;
 `;
 export const CirclePerfil1 = styled.View`
-    position:absolute;
+    position:relative;
     width: 25px;
     height: 25px;
-    left: 295px;
-    top: 46px;
+    left: 90%;
+    top: -53%;
 `;
 
 export const ArrowPerfil1 = styled.View`
-    position:absolute;
+    position:relative;
     width: 25px;
     height: 25px;
-    left: 302px;
-    top: 54px;
+    left: 92.7%;
+    top: -54.2%;
 `;
 
 export const CirclePerfil2 = styled.View`
-    position:absolute;
+    position:relative;
     width: 25px;
     height: 25px;
-    left: 295px;
-    top: 125px;
+    left: 90%;
+    top: -50%;
 `;
 export const ArrowPerfil2 = styled.View`
-    position:absolute;
+    position:relative;
     width: 24px;
     height: 24px;
-    left: 302px;
-    top: 133px;
+    left: 92.7%;
+    top: -51.2%;
 `;
 
 export const Img1 = styled.View`
-position:absolute;
+position:relative;
 width: 50px;
 height: 50px;
-left: 15px;
-top: 33px;
+left: 3%;
+top: -41%;
 background: #ADD8E6;
 border-radius: 30px;
 `;
 export const Img2 = styled.View`
-position:absolute;
+position:relative;
 width: 50px;
 height: 50px;
-left: 15px;
-top: 115px;
+left: 3%;
+top: -42%;
 background: #FADCE6;
 border-radius: 30px;
 `;
