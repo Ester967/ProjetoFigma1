@@ -24,6 +24,9 @@ import WhatGoalDois from '../pages/WhatGoalDois';
 import WhatGoalTres from '../pages/WhatGoalTres';
 import Welcome from '../pages/Welcome';
 import MealPlannerScreen from '../pages/MealPlanner';
+import BreakfastScreen from '../pages/Breakfast';
+import BluebarryPancakeScreen from '../pages/BluebarryPancake';
+import MealScheduleScreen from '../pages/MealSchedule';
 
 
 const Stack = createNativeStackNavigator();
@@ -159,6 +162,27 @@ export default function StackRoutes(){
           title: 'Meal Planner',
           headerTitleAlign: 'center', 
         }} />
+
+        <Stack.Screen name="Breakfast" 
+          component={BreakfastScreen}
+          options={{
+          title: 'Breakfast',
+          headerTitleAlign: 'center'
+        }} /> 
+        <Stack.Screen name="Bluebarry Pancake"
+          component={BluebarryPancakeScreen}
+          options={{
+          title: 'Bluebarry Pancake',
+          headerTitleAlign: 'center'
+        }} />
+
+        <Stack.Screen name="Meal Schedule" 
+          component={MealScheduleScreen}
+          options={{
+          title: 'Meal Schedule',
+          headerTitleAlign: 'center',
+        }} />
         </Stack.Navigator>
+        
     )
 }
