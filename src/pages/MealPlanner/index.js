@@ -87,10 +87,12 @@ function MealPlannerScreen({navigation}) {
           top: 449.31
         }}
       />
+      <TouchableOpacity onPress={() => navigation.navigate('Breakfast')}>
       <Container5>
         <Text7>Salmon Nigiri</Text7>
         <Text8>Today | 7am</Text8>
       </Container5>
+      </TouchableOpacity>
       <Image 
         source={require('../MealPlanner/Vector.png')}
         style={{position: 'absolute',
