@@ -32,8 +32,8 @@ export default function AddSchedule({navigation}){
             <ContainerThu>
                 <TextThu>Thu, 27 May 2021</TextThu>
                 <IconFullbody>
-                                <EvilIcons name='calendar' color={'#7B6F72'} size={25}/>
-                            </IconFullbody>
+                        <EvilIcons name='calendar' color={'#7B6F72'} size={25}/>
+                </IconFullbody>
             </ContainerThu>
 
             
@@ -115,7 +115,11 @@ export default function AddSchedule({navigation}){
             </ContainerDetails>
 
             <ContainerButtonSave>
+            <TouchableOpacity
+            onPress={() => navigation.navigate('Meal Planner')}
+            >
                 <TextSave>Save</TextSave>
+            </TouchableOpacity>
             </ContainerButtonSave>
         </Container>
     );
