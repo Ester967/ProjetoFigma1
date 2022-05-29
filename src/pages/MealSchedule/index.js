@@ -159,6 +159,8 @@ function MealScheduleScreen({navigation,route}) {
               top: 308.75
             }}
           />
+
+          <TouchableOpacity onPress={() => navigation.navigate('Sleep Tracker')}>
           <Container8></Container8>
           <Text18>Coffee</Text18>
           <Text19>07:30am</Text19>
@@ -182,6 +184,7 @@ function MealScheduleScreen({navigation,route}) {
               top: 378.75
             }}
           />
+          </TouchableOpacity>
           <Text20>Lunch</Text20>
           <Text21>2 meals | 500 calories</Text21>
           <Container9></Container9>
