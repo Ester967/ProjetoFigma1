@@ -13,7 +13,7 @@ export const Title = styled.Text`
     width: 100%;
     height: 100%;
     left: 40%;
-    top: 5%
+    top: 5%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
