@@ -53,7 +53,7 @@ export const HeaderTitle = styled.Text`
 
 
 
-export const NotificationButton = styled.View`
+export const NotificationButton = styled.TouchableOpacity`
     position:relative;
     left: 25%;
     right: 10.43%;
