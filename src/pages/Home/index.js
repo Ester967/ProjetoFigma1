@@ -4,7 +4,7 @@ import {useNavigation} from '@react-navigation/native'
 import {Feather, FontAwesome, SimpleLineIcons,MaterialIcons} from '@expo/vector-icons';
 import {Container, HeaderArea, HeaderTitle, HeaderText, HeaderContainer, ContainerTitle, ContainerText, AreaButton, MoreButton, ButtonText,     Circle, HalfCircle, Bolha, Bolha2, Bolha3, Bolha4, Bolha5, Bolha6, NotificationButton, Container2, TextContainer2, CheckButton, TextButtonCheck,
 Text2, ContainerStatistics, TitleStatistics, TextStatistics, TimeButton, TextTimeButton, ContainerWater, ContainerSleep, ContainerCalories,
-MeterWater, ColorMeterWater, TextWater, TextWater2, TextWater3, Ball, Ball2,Ball3,Ball4,Ball5,Straight,Straight2,Straight3,Straight1,TextBall,TextBall2,TextStraight,TextStraight1,TextBall3,TextStraight2,TextBall4,TextStraight3,TextBall5,TextStraight4,TextSleep,TextTimeSleep,TextCalories,Textkg,CircleCalories,TextCircleCalories,CircleCircle, ContainerProgress,TextProgress,ButtonWeekly,LineProgress,LineProgress2,LineProgress3,LineProgress4,LineProgress5,LineProgress6, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Num1, Num2, Num3, Num4, Num5, Num6, CashierProgress, TextCashierProgress, Text2CashierProgress, NumCashierProgress, ArrowCashierProgress, GraphicCachierProgress, ColorGraphicCachierProgress, ColorGraphicProgress, TextWorkout, Text2Workout, TextPerfil1, Text2Perfil1, GraphicPerfil1, GraphicColorPerfil1, TextPerfil2, Text2Perfil2, GraphicPerfil2, GraphicColorPerfil2, CirclePerfil1, ArrowPerfil1, CirclePerfil2, ArrowPerfil2, Scroller, Img1, Img2, TextWeekly, ImgWeekly, DetButton, ImgStatistics, ImgSleep, ImgProgress, ContainerMore, ContainerWorkout, ImgFri, ContainerLine} from './style';
+MeterWater, ColorMeterWater, TextWater, TextWater2, TextWater3, Ball, Ball2,Ball3,Ball4,Ball5,Straight,Straight2,Straight3,Straight1,TextBall,TextBall2,TextStraight,TextStraight1,TextBall3,TextStraight2,TextBall4,TextStraight3,TextBall5,TextStraight4,TextSleep,TextTimeSleep,TextCalories,Textkg,CircleCalories,TextCircleCalories,CircleCircle, ContainerProgress,TextProgress,ButtonWeekly,LineProgress,LineProgress2,LineProgress3,LineProgress4,LineProgress5,LineProgress6, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Num1, Num2, Num3, Num4, Num5, Num6, CashierProgress, TextCashierProgress, Text2CashierProgress, NumCashierProgress, ArrowCashierProgress, GraphicCachierProgress, ColorGraphicCachierProgress, ColorGraphicProgress, TextWorkout, Text2Workout, TextPerfil1, Text2Perfil1, GraphicPerfil1, GraphicColorPerfil1, TextPerfil2, Text2Perfil2, GraphicPerfil2, GraphicColorPerfil2, CirclePerfil1, ArrowPerfil1, CirclePerfil2, ArrowPerfil2, Scroller, Img1, Img2, TextWeekly, ImgWeekly, DetButton, ImgStatistics, ImgSleep, ImgProgress, ContainerWorkout, ImgFri, ContainerLine} from './style';
 import PizzaHome from '../../components/Graphics/PizzaHome';
 import CircleHome from '../../components/Graphics/CircleHome';
 
@@ -35,10 +35,8 @@ export default function Home() {
                 <HeaderText>Welcome Back,</HeaderText>
                     
                     <AreaButton>
-                        <NotificationButton>
-                            <TouchableOpacity  onPress={navegaNotification}>
+                        <NotificationButton onPress={navegaNotification}>
                                 <Feather name='bell'size={20}/>
-                            </TouchableOpacity>
                         </NotificationButton>
                     </AreaButton>
                 </HeaderArea>
@@ -184,6 +182,7 @@ export default function Home() {
                         </ImgWeekly>
                 </ButtonWeekly>
                 </TouchableOpacity>
+               
                     
                     <ContainerLine>
                     <LineProgress></LineProgress>
