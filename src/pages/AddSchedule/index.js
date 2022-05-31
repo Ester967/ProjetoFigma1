@@ -2,7 +2,7 @@ import React from 'react';
 import {  TouchableOpacity,Image} from 'react-native';
 import {MaterialCommunityIcons, FontAwesome, SimpleLineIcons,Foundation, EvilIcons} from '@expo/vector-icons';
 import { Container, ContainerButtonSave, ContainerChoose, ContainerDetails, ContainerDifficulity, ContainerFor, ContainerRepetitions, ContainerThu, ContainerTime, ContainerTree, ContainerTwo, ContainerWeights, HeaderArea, HeaderContainer1, HeaderContainer2, HeaderIcon1, HeaderIcon2, HeaderIcon3, HeaderTitle, IconArrow, Line1, Line2, TextContainerDetails, TextContainerDetails2, TextDetails, TextNumber, TextNumber2, TextNumber3, TextNumberBold1, TextNumberBold2, TextNumberBold3, TextSave, TextThu, TextTime} from './style';
-import { IconDifficulity, IconDifficulity2, IconExercises, IconFullbody } from '../FullbodyWorkout/style';
+import { IconDifficulity, IconDifficulity2, IconFullbody } from '../FullbodyWorkout/style';
 
 export default function AddSchedule({navigation}){
     return(
@@ -114,12 +114,9 @@ export default function AddSchedule({navigation}){
                 </ContainerWeights>
             </ContainerDetails>
 
+
             <ContainerButtonSave>
-            <TouchableOpacity
-            onPress={() => navigation.navigate('Meal Planner')}
-            >
                 <TextSave>Save</TextSave>
-            </TouchableOpacity>
             </ContainerButtonSave>
         </Container>
     );
